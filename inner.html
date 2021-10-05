@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+<header class="page-header">
+<nav class="navigation">
+ <ul class="site-navigation">
+  <li class="navigation-item">
+   <a href="main-page.html">Главная</a>
+  </li>
+  <li class="navigation-item">
+   <a href="about-sedona.html">О Седоне</a>
+  </li>
+  <li class="navigation-item">
+   <a href="hotels.html">Гостиницы</a>
+  </li>
+ </ul>
+ <a class="main-header-logo">
+ <img scr="#" alt="Логотип сайта городка Седона">
+</a>
+ <ul class="navigation-user">
+  <li class="navigation-item">
+   <a
+      href="#"> <span class="visually-hidden">Поиск</span></a>
+  </li>
+  <li class="navigation-item">
+   <a class="navigation-link"
+      href="#"> <span class="visually-hidden">Поставить лайк</span></a>
+  </li>
+  <li class="navigation-item">
+   <a class="navigation-link"
+      href="#">ХОЧУ СУДА!</a>
+  </li>
+ </ul>
+</nav>
+</header>
+<main class="main-inner">
+  <header inner-heder-title>
+<h1 class="inner-header-title">Гостиницы Седоны</h1>
+<ul class="breadcrumbs">
+  <li class="breadcrumbs-item">
+    <a class="breadcrumbs-link" href="index.html"> <img scr="#" alt="Главная"></a>
+  </li>
+  <li class="breadcrumbs-item">
+    <a class="breadcrumbs-link">Гостиницы</a>
+  </li>
+</ul>
+  </header>
+<section class="filters-hotels">
+  <h2 class="visually-hidden">Список отелей с фильтрами</h2>
+  <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+  <fieldset class="checkbox-filter-group">
+    <legend class="checkbox-filter-title">Инфраструктура:</legend>
+    <ul>
+    <li class="checkbox-filter-item">
+    <label class="control">
+      <input class="visually-hidden` control-input" type="checkbox" name="swimming-pool" checked>
+      <span class="control-mark"></span>
+      <span class="control-label">Бассейн</span>
+    </label>
+  </li>
+  <li class="checkbox-filter-item">
+    <label class="control">
+      <input class="visually-hidden` control-input" type="checkbox" name="parking-space" checked>
+      <span class="control-mark"></span>
+      <span class="control-label">Парковка</span>
+    </label>
+  </li>
+  <li class="checkbox-filter-item">
+    <label class="control">
+      <input class="visually-hidden` control-input" type="checkbox" name="wi-fi">
+      <span class="control-mark"></span>
+      <span class="control-label">WI-FI</span>
+    </label>
+  </li>
+</ul>
+  </fieldset>
+  <fieldset class="radio-filter-group">
+    <legend class="radio-filter-title">Тип жилья:</legend>
+    <ul class="radio-filter-list">
+     <li class="radio-filter-item">
+      <label class="control">
+        <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="hotel" checked>
+        <span class="control-mark"></span>
+    <span class="control-label">Гостиница</span>
+      </label>
+</li>
+<li class="radio-filter-item">
+  <label class="control">
+    <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="motel">
+    <span class="control-mark"></span>
+<span class="control-label">Мотель</span>
+  </label>
+</li><li class="radio-filter-item">
+  <label class="control">
+    <input class="visually-hidden control-input" type="radio" name="type-of-housing" value="apartments" >
+    <span class="control-mark"></span>
+<span class="control-label">Апартаменты</span>
+  </label>
+</li>
+    </ul>
+  </fieldset>
+  <fieldset class="cost-filter-group">
+    <legend class="cost-filter-title">Стоимость, ₽:</legend>
+    <button class="range-toggle toggle-min" type="button">
+      <span class="visually-hidden">Изменить минимальную цену.</span>
+    </button>
+    <button class="range-toggle toggle-min" type="button">
+      <span class="visually-hidden">Изменить максимальную цену.</span>
+    </button>
+    <input class="cost-filter-input" type="number" name="min-cost" placeholder="от">
+    <input class="cost-filter-input" type="number" name="max-cost" placeholder="до">
+    </fieldset>
+    <button class="button" type="submit">ПРИМЕНИТЬ</button>
+    <button class="button" type="submit">СБРОСИТЬ</button>
+</section>
+
+
+<section>
+  <h2 class="subscription-inner">Подпишитесь на рассылку</h2>
+  <p>Только полезная информация и никакого спама,
+    честное бойскаутское!</p>
+    <form class="subscription-form" action="https://echo.htmlacademy.ru/"
+          method="post">
+          <input type="email" name="email-for-subscription" placeholder="Ваш e-mail">
+      <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+  </form>
+</section>
+ </main>
+ <footer class="page-footer">
+   <section class="footer-social-contacts">
+  <ul class="footer-social-list">
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">ТВИТЕР</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">ФЕЙСБУК</span>
+      </a>
+    </li>
+    <li class="footer-social-item">
+      <a class="button" href="#">
+        <span class="visually-hidden">ЮТЮБ</span>
+
+      </a>
+    </li>
+  </ul>
+  <p><a class="footer-contacts-phone" href="tel:+78128121212">
+    +7 (812) 812-12-12</a></p>
+   </section>
+   <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html<br>academy</a>
+ </footer>
+  </body>
+  </html>
