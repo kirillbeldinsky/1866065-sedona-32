@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #E5E5E5
+}
+/* Pages */
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
+.left-navigation-link a {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+right-navigation-link a {
+
+
+}
+
+.advantages-title {
+url "img/Home_blue.svg";
+
+}
