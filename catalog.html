@@ -3,43 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 <header class="page-header">
 <nav class="navigation">
- <ul class="site-navigation">
-  <li class="navigation-item">
+  <div class="left-navigation-link">
    <a href="main-page.html">Главная</a>
-  </li>
-  <li class="navigation-item">
+
    <a href="about-sedona.html">О Седоне</a>
-  </li>
-  <li class="navigation-item">
+
    <a href="hotels.html">Гостиницы</a>
-  </li>
- </ul>
+  </div>
  <a class="main-header-logo">
- <img scr="#" alt="Логотип сайта городка Седона">
+
+ <img src="img/heder/sedona-logo.svg" alt="Логотип сайта городка Седона" height="70px" width="138px" >
 </a>
- <ul class="navigation-user">
-  <li class="navigation-item">
-   <a
-      href="#"> <span class="visually-hidden">Поиск</span></a>
-  </li>
-  <li class="navigation-item">
+
+   <a href=""> <span class="visually-hidden">Поиск</span></a>
+
    <a class="navigation-link"
       href="#"> <span class="visually-hidden">Поставить лайк</span></a>
-  </li>
-  <li class="navigation-item">
+
    <a class="navigation-link"
       href="#">ХОЧУ СУДА!</a>
-  </li>
- </ul>
+
 </nav>
 </header>
-<main class="main-inner">
-  <header inner-heder-title>
-<h1 class="inner-header-title">Гостиницы Седоны</h1>
+<main class="main-catalog">
+  <header class="catalog-header">
+    <img src="img/catalog/catalog-background.jpg" width="1200px"
+    height="408px">
+<h1 class="catalog-header-title">Гостиницы Седоны</h1>
 <ul class="breadcrumbs">
   <li class="breadcrumbs-item">
     <a class="breadcrumbs-link" href="index.html"> <img scr="#" alt="Главная"></a>
@@ -48,7 +43,6 @@
     <a class="breadcrumbs-link">Гостиницы</a>
   </li>
 </ul>
-  </header>
 <section class="filters-hotels">
   <h2 class="visually-hidden">Список отелей с фильтрами</h2>
   <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -116,11 +110,11 @@
     </fieldset>
     <button class="button" type="submit">ПРИМЕНИТЬ</button>
     <button class="button" type="submit">СБРОСИТЬ</button>
-
+  </header>
   <ul class="hotel-csrd-list">
     <il class="hotel-card-item">
   <a class="hotel-card-link" href="#">
-    <img class="hotel-card-image" src="#" alt="#">
+    <img class="hotel-card-image" src="img/catalog/amara-resort.jpg" width="180px" height="120px" alt="Амра ресот">
     <h3 class="hotel-card-title">Amara Resort & Spa</h3>
   </a>
   <p class="hotel-card-view">Гостиница</p>
@@ -131,7 +125,8 @@
   </il>
   <il class="hotel-card-item">
     <a class="hotel-card-link" href="#">
-      <img class="hotel-card-image" src="#" alt="#">
+      <img class="hotel-card-image" src="img/catalog/Desert-Quail-inn.jpg" width="180px" height="120px"
+      alt="Вилла Квейл Ин">
       <h3 class="hotel-card-title">Desert Quail Inn</h3>
     </a>
     <p class="hotel-card-view">Мотель</p>
@@ -142,7 +137,7 @@
     </il>
     <il class="hotel-card-item">
       <a class="hotel-card-link" href="#">
-        <img class="hotel-card-image" src="#" alt="#">
+        <img class="hotel-card-image" src="img/catalog/Villas-at-Poco-Diablo.jpg" width="180px" height="120px" alt="Вилла Ат Поко Диавало">
         <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
       </a>
       <p class="hotel-card-view">Апартаменты</p>
@@ -153,7 +148,7 @@
       </il>
       <il class="hotel-card-item">
         <a class="hotel-card-link" href="#">
-          <img class="hotel-card-image" src="#" alt="#">
+          <img class="hotel-card-image" src="img/catalog/GreenTree-Inn.jpg" width="180px" height="120px" alt="Вилла Грио Ти">
           <h3 class="hotel-card-title">GreenTree Inn</h3>
         </a>
         <p class="hotel-card-view">Гостиница</p>
