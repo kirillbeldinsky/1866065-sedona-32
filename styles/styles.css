@@ -15,9 +15,10 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-
   font-size: 22px;
   line-height: 26px;
+  font-weight: 700;
+  font-style: normal;
   color: #000000;
   background-color: #E5E5E5;
 }
@@ -26,47 +27,147 @@ body {
   color: #000000;
   background: #FFFFFF;
 }
-.left-navigation-link a {
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none;
 
+.navigation-link {
+ background-color: #FFFFFF;
+ color:#000000;
+ font-size: 20px;
+ text-decoration: none;
 }
 
-.right-navigation-link a{
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none
 
+.main-title {
+ font-size: 30px;
 }
-
+.footer-title {
+  font-size: 30px;
+ }
 .advantages-title {
-
-
+ line-height: 36px;
+ font-weight: 400;
 }
+.footer-subscription {
+  background-color: #000000;
+  color: #FFFFFF;
+  line-height: 36px;
+  font-weight: 400;
+}
+.advantages-title-item-white {
+ color:#FFFFFF;
+ font-Size: 24px;
+ line-height: 28;
+ }
+
+ .advantages-item-white {
+  color:#FFFFFF;
+  font-Size: 18px;
+  line-height: 21;
+  font-weight: 400;
+ }
+
+
+  .backgraund-blue {
+   background:
+    #83B3D3 12%;
+    width: 400px;
+    height: 384px;
+  }
+  .advantages-item-title-black {
+  font-Size: 24px;
+  line-height: 28;
+  color: #000000;
+ }
+
+ .advantages-item-black{
+  font-Size: 18px;
+  line-height: 21;
+  font-weight: 400;
+  color: black
+ }
+
+
 .navigation-battom {
   width: 160px;
   height: 37px;
   background-color:  #756257;
-border-radius: 4px;
-color: #FFFFFF;
-font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.catalog-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  background-color: black;
+
+}
+.breadcrumbs-link {
 font-size: 16px;
+font-weight: 400;
 line-height: 21px;
-text-align: center;
-text-transform: uppercase;
+color: #FFFFFF;
+background-color: black;
+}
+
+.breadcrumbs-link-black{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  }
+
+
+.checkbox-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: black;
+}
+
+.control-label {
+  color: #FFFFFF;
+  background-color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotel-card-title {
+ font-size: 24px;
+ line-height: 31px;
+}
+
+.subscription-inner {
+ font-size: 30px;
+ line-height: 36;
 
 }
-.main-header-logo {
-
-
+.subscription-inner-text {
+ font-size: 22px;
+ line-height: 36px;
+ font-weight: 400;
 }
+
+.email-for-subscription {
+ font-size: 18px;
+ line-height: 26px;
+ font-weight: 400;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.visually-hidden {
 
 
 }
